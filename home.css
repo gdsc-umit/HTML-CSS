@@ -1,0 +1,98 @@
+@font-face {
+    font-family: skyline;
+    src: url('../HTML-CSS/Media/AsianSkylineDemoRegular-ggL5.ttf');
+}
+@font-face {
+    font-family: Vedacity;
+    src: url('../HTML-CSS/Media/VedacityDemoRegular-mMpj.ttf');
+}
+@font-face {
+    font-family: dolly;
+    src: url('../HTML-CSS/Media/DollynScriptDemoRegular-Bym5.ttf');
+}
+@font-face {
+    font-family: script;
+    src: url('../HTML-CSS/Media/RomancesScriptFont-j2ql.ttf');
+}
+body{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    overflow : hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.header{
+ height: 30vh;
+ width: 100vw;
+ display: flex;
+ /* background-color: blue; */
+ justify-content: center;
+ align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color:#689775;
+    /* background-color: rgb(212, 228, 68); */
+    justify-content: center;
+    align-items: center;
+}
+.socials
+{
+    display: flex;
+    flex-direction: row;
+}
+.photo{
+    height: 70vh;
+    width: 50vw;
+    /* background-color: rgb(68, 191, 228); */
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    display: flex;
+    margin: 5vh 5vw;
+    height:60vh;
+}
+
+.nameshadow{
+    display: flex;
+    color:#c84c3c5b;
+    opacity: 30;
+    font-size:20vh;
+    
+    /* height:0vh; */
+    /* width: 0vw; */
+}
+.name{
+    display: flex;
+    color:#689775;
+    font-size:20vh;
+    position: absolute;
+    font-family: script;
+    /* word-spacing: 20vw; */
+    letter-spacing: 5px;
+    margin-top: 20vh;
+
+    /* height:0vh; */
+    /* width: 0vw; */
+}
+
