@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+}
+.achievements_table {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    margin-top: 8rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+.heading {
+    font-size: x-large;
+    padding: 1rem;
+    color: white;
+    background-color: #503d34;
+    border-bottom: 2px solid #907163;
+    border-radius: 5px 5px 0px 0px;
+}
+.row {
+    border-bottom: 2px solid #379683ed;
+    color: #edf5e1;
+    font-size: larger;
+}
+td {
+    padding: 1rem;
+}
+.odd {
+    background-color: #edf5e1;
+}
+.even {
+    background-color: #e1f0ca;
+}
