@@ -7,7 +7,7 @@ body{
 	align-items: center;
 	justify-content: center;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 8rem; /* root emphemeral unit*/
     border-collapse: collapse;
     width: 100%;
 }
