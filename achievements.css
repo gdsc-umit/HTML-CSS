@@ -36,7 +36,9 @@ td {
     background-color: #e1f0ca;
 }
 .navbar {
-    position: sticky;
+    position: fixed;
+    top: 0; 
+    width: 100%;
     display: flex;
     padding: 20px;
     background-color: #379683;
